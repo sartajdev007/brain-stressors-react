@@ -15,13 +15,13 @@ const Quiz = ({ quiz }) => {
     }
 
     return (
-        <div className='border-2 m-10 border-amber-700 bg-violet-300 shadow-2xl p-8'>
+        <div className='border-2 m-10 bg-violet-300 shadow-2xl p-8'>
             <h2 className='font-semibold text-xl'>{question}</h2>
             <div className='grid grid-cols-2 gap-2 p'>
                 {
                     options.map(option =>
-                        <div className=' p-5'>
-                            <button onClick={() => handleAnswer(option)} className='border-2 border-black p-10'>{option}</button>
+                        <div className='border-2 border-black p-10 mt-5'>
+                            <button onClick={handleAnswer}>{option}</button>
                         </div>
                     )
                 }
