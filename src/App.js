@@ -5,12 +5,14 @@ import Topics from './components/Topics/Topics'
 import Statistics from './components/Statistics/Statistics'
 import Blogs from './components/Blogs/Blogs'
 import Quiz from './components/Quizzes/Quizzes';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 function App() {
   const router = createBrowserRouter([
     {
       path: '/',
       element: <Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
       children: [
         {
           path: '/',
@@ -44,7 +46,6 @@ function App() {
         },
       ]
     },
-    { path: '*', element: <div>404-Page not found</div> }
   ])
   return (
     <div className="App">
