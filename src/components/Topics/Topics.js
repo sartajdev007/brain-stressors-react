@@ -4,7 +4,7 @@ import Topic from '../Topic/Topic';
 
 const Topics = () => {
     const topics = useLoaderData();
-    console.log(topics.data)
+
     return (
         <div>
             <div className='hero min-h-screen bg-base-200'>
