@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { QuestionMarkCircleIcon } from '@heroicons/react/24/solid'
 
 const Header = () => {
