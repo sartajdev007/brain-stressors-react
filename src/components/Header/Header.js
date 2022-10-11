@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { QuestionMarkCircleIcon } from '@heroicons/react/24/solid'
 
 const Header = () => {
     return (
@@ -28,6 +29,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <button className='btn btn-ghost normal-case text-xl text-white'>
+                    <QuestionMarkCircleIcon className="h-7 w-7 text-white mt-1"></QuestionMarkCircleIcon>
                     Brain Stressors
                 </button>
             </div>
