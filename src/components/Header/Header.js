@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='navbar bg-base-100'>
+        <div className='navbar bg-teal-400 text-white'>
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -13,21 +13,21 @@ const Header = () => {
                         <li><NavLink to='topics' className={({ isActive }) =>
                             isActive
                                 ? 'font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
-                                : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                                : 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'
                         }>Topics</NavLink></li>
                         <li><NavLink to='statistics' className={({ isActive }) =>
                             isActive
                                 ? 'font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
-                                : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                                : 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'
                         }>Statistics</NavLink></li>
                         <li><NavLink to='blogs' className={({ isActive }) =>
                             isActive
                                 ? 'font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
-                                : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                                : 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'
                         }>Blogs</NavLink></li>
                     </ul>
                 </div>
-                <button className='btn btn-ghost normal-case text-xl'>
+                <button className='btn btn-ghost normal-case text-xl text-white'>
                     Brain Stressors
                 </button>
             </div>
@@ -36,17 +36,17 @@ const Header = () => {
                     <li><NavLink to='topics' className={({ isActive }) =>
                         isActive
                             ? 'font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
-                            : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                            : 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'
                     }>Topics</NavLink></li>
                     <li><NavLink to='statistics' className={({ isActive }) =>
                         isActive
                             ? 'font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
-                            : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                            : 'font-medium tracking-wide text-white-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                     }>Statistics</NavLink></li>
                     <li><NavLink to='blogs' className={({ isActive }) =>
                         isActive
                             ? 'font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
-                            : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                            : 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'
                     }>Blogs</NavLink></li>
                 </ul>
             </div>

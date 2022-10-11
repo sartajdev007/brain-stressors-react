@@ -6,8 +6,8 @@ const Statistics = () => {
     const stats = useLoaderData()
     return (
 
-        <div className='flex-col justify-center align-middle'>
-            <h2 className='text-2xl font-semibold'>Statistics</h2>
+        <div className='flex-col justify-center align-middle mt-5'>
+            <h2 className='text-2xl font-semibold'>Number of questions in each section</h2>
             <div className='mt-10'>
                 <BarChart className='align-center' width={730} height={250} data={stats.data}>
                     <CartesianGrid strokeDasharray="3 3" />
