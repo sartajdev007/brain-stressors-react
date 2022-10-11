@@ -14,17 +14,17 @@ const Header = () => {
                         <li><NavLink to='topics' className={({ isActive }) =>
                             isActive
                                 ? 'font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
-                                : 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'
+                                : 'font-medium tracking-wide text-gray-500 transition-colors duration-200 hover:text-deep-purple-accent-400'
                         }>Topics</NavLink></li>
                         <li><NavLink to='statistics' className={({ isActive }) =>
                             isActive
                                 ? 'font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
-                                : 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'
+                                : 'font-medium tracking-wide text-gray-500 transition-colors duration-200 hover:text-deep-purple-accent-400'
                         }>Statistics</NavLink></li>
                         <li><NavLink to='blogs' className={({ isActive }) =>
                             isActive
                                 ? 'font-medium tracking-wide text-blue-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
-                                : 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'
+                                : 'font-medium tracking-wide text-gray-500 transition-colors duration-200 hover:text-deep-purple-accent-400'
                         }>Blogs</NavLink></li>
                     </ul>
                 </div>
