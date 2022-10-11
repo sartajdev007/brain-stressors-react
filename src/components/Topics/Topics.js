@@ -17,7 +17,7 @@ const Topics = () => {
                 </div>
             </div>
             {/* hero section end */}
-            <div className='mt-10 mb-10 gap-5 flex flex-col md:flex-row lg:flex-row'>
+            <div className='mt-10 mb-10 gap-5 flex flex-col align-middle justify-center md:flex-row lg:flex-row'>
                 {
                     topics.data.map(topic => <Topic
                         key={topic.id}
