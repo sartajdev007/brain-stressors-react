@@ -1,6 +1,6 @@
 # Brain Stressors Website
 
-Live Website Link: https://adorable-druid-e9891f.netlify.app/statistics
+Live Website Link: https://adorable-druid-e9891f.netlify.app/
 
 ### Features
 4 topics covered
